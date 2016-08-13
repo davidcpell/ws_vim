@@ -1,9 +1,4 @@
-# # encoding: utf-8
-
-# Inspec test for recipe vim::default
-
-# The Inspec reference, with examples and extensive documentation, can be
-# found at https://docs.chef.io/inspec_reference.html
+# Inspec test for default recipe
 
 unless os.windows?
   describe user('root') do
