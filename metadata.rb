@@ -1,6 +1,6 @@
 name 'vim'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'David Pell'
+maintainer_email 'davidcpell@gmail.com'
 license 'all_rights'
 description 'Installs/Configures vim'
 long_description 'Installs/Configures vim'
