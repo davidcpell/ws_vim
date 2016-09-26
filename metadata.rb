@@ -1,4 +1,4 @@
-name 'ws-vim'
+name 'ws_vim'
 maintainer 'David Pell'
 maintainer_email 'davidcpell@gmail.com'
 license 'all_rights'
@@ -7,3 +7,4 @@ long_description 'Installs/Configures vim'
 version '0.1.0'
 
 depends 'vim', '~> 2.0.1'
+depends 'pathogen', '~> 0.3.2'

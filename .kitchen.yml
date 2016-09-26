@@ -4,6 +4,7 @@ driver:
 
 provisioner:
   name: chef_zero
+  data_bags_path: test/data_bags
 
 verifier:
   name: inspec
@@ -16,5 +17,8 @@ platforms:
 suites:
   - name: default
     run_list:
-      - recipe[vim::default]
+      - recipe[ws_users::default]
+      - recipe[ws_vim::default]
+      - recipe[pathogen::git]
+      - recipe[ws_vim::pathogen]
     attributes:
