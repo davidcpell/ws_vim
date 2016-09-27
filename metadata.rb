@@ -4,7 +4,7 @@ maintainer_email 'davidcpell@gmail.com'
 license 'all_rights'
 description 'Installs/Configures vim'
 long_description 'Installs/Configures vim'
-version '0.2.0'
+version '0.3.0'
 
 depends 'vim', '~> 2.0.1'
 depends 'pathogen', '~> 0.3.2'
